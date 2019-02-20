@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Check {
 
   public static void main(String[] args) {
+    // the main method args is info from the command line.
     Scanner scanner = new Scanner(System.in);
     System.out.print("Enter a number: ");
     int pass = scanner.nextInt();
